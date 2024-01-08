@@ -9,9 +9,11 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-public class VehicleRegistration extends Document {
-    private Person owner;
-    private int issuingOfficerId;
-    private int motorVehicleId;
-    private double feePaid;
+public class Address {
+    private String street1;
+    private String street2;
+    private String city;
+    private String province;
+    private String postalCode;
+    private String country;
 }

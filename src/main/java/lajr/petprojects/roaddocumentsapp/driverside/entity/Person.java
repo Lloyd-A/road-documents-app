@@ -11,11 +11,12 @@ import java.util.Date;
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-public class DriversLicense extends Document {
-    private Driver driver;
-    private String countryOfIssue;
-    private String LicenseClass;
-    private String collectorate;
-
-
+public class Person {
+    protected String TRN;
+    protected String firstName;
+    protected String middleName;
+    protected String lastName;
+    protected char sex;
+    protected Date dateOfBirth;
+    protected Address address;
 }
